@@ -4,6 +4,18 @@
 
 **大猪 (GiantPig) App** 是一款极简主义的Android应用，功能只有一个：在屏幕上显示一头可爱的🐷 emoji。该应用完全由AI自动编写，旨在为普通人证明，你目前一段时间只能叫AI写这样的程序，深度不能往深了
 
+## Flutter 重构
+
+响应 [issue #1](https://github.com/caidingding233/ginatpig/issues/1) 的需求，项目新增 `flutter_app` 目录，开始尝试使用 Flutter 重写大猪 App。
+该版本旨在支持 Android、iOS、macOS、Windows、Linux 等多平台运行。当前目录仅包含最基础的示例：
+
+```bash
+cd flutter_app
+flutter run
+```
+
+欢迎继续完善。
+
 ## 功能
 
 - 显示一头🐷 emoji在屏幕中央。
