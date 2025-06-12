@@ -1,0 +1,13 @@
+name: giant_pig_flutter
+version: 0.1.0
+publish_to: 'none'
+description: "Cross-platform Flutter rewrite of the GiantPig app."
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
