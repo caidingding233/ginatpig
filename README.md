@@ -2,7 +2,7 @@
 
 ## 简介
 
-**大猪 (GiantPig) App** 是一款极简主义的Android应用，功能只有一个：在屏幕上显示一头可爱的🐷 emoji。该应用完全由AI自动编写，旨在为普通人证明，你目前一段时间只能叫AI写这样的程序，深度不能往深了
+**大猪 (GiantPig) App** 是一款极简主义的 Flutter 应用，功能只有一个：在屏幕上显示一头可爱的 🐷 emoji。该应用完全由 AI 自动编写，旨在证明目前 AI 已能够生成简单的跨平台程序
 
 ## 功能
 
@@ -11,9 +11,10 @@
 
 ## 技术细节
 
-- 语言：Java / Kotlin
-- 构建工具：Android Studio
-- 完全由AI生成代码
+- 语言：Dart（Flutter）
+- 构建工具：Flutter
+- 支持多平台（Android、iOS、Web 等）
+- 完全由 AI 生成代码
 
 ## 使用说明
 
@@ -27,12 +28,12 @@ git clone https://github.com/caidingding233/ginatpig.git
 
 ### 编译步骤
 
-1. 使用Android Studio打开项目。
-2. 将源代码导入Android Studio，确保所有依赖项已正确配置。
-3. 连接你的Android设备或者设置模拟器。
-4. 点击“运行”按钮（绿色箭头）来部署并运行应用。
+1. 安装 [Flutter SDK](https://docs.flutter.dev/get-started/install)。
+2. 在项目目录执行 `flutter pub get` 安装依赖。
+3. 连接设备或启动模拟器。
+4. 运行 `flutter run` 部署并启动应用。
    
-如果在编译过程中遇到问题，请查看Android Studio的[官方文档](https://developer.android.com/studio)。
+如果在编译过程中遇到问题，请查看 [Flutter 文档](https://docs.flutter.dev) 或 IDE 的相关文档。
 
 ## 贡献
 
